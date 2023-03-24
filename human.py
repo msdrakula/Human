@@ -17,7 +17,7 @@ class Student(Human):
         # напечатайте на экран вопрос в нужном формате
         print(f'{someone.name}, {question}')
         # запросите ответ на вопрос у someone
-        return someone.answer_question(question)
+        someone.answer_question(question)
 
         print()  # этот print выводит разделительную пустую строку
 
